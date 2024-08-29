@@ -35,3 +35,28 @@ const myfunction = function () {
     //console.log(typeof bigNumber);
     //
     console.log(typeof outsideTemp);
+
+
+
+//********************************//
+
+// stack (primitive), heap (Non-primitive)
+
+let myYoutubename = "shruti@.youtube.com"
+let anothername = myYoutubename
+anothername = "chaiorcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let user1 = {
+    email: "shreya@google.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "shruti@123google.com"
+
+console.log(user1.email);
+console.log(user2.email);
