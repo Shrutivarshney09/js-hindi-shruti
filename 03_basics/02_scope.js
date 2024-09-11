@@ -3,7 +3,7 @@ let a = 300
 if (true){
     let a = 10
     const b = 20
-   console.log("INNER:", a);
+   //console.log("INNER:", a);
 }
 
 for (let i = 0; i < Array.length; i++){
@@ -14,6 +14,16 @@ for (let i = 0; i < Array.length; i++){
 //console.log(b);
 // console.log(c);
 
+if (true) {
+    const username = "shruti"
+    if (username === "shruti") {
+        const website = "youtube"
+        console.log(username + website);
+    }
+    //console.log(website);
+}
+
+//console.log(username);
 
 
 
